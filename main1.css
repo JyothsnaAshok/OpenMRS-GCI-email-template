@@ -1,0 +1,48 @@
+.box {
+  height: 550px;
+  width: 500px;
+  position: relative;
+  background-image: url('background.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 10px;
+  border: 1px solid grey;
+}
+
+.left {
+  height: 550px;
+  width: 130px;
+  background-color: #F26522;
+  object-position: inline;
+}
+
+.rotate {
+  transform: rotate(90deg);
+  height: 175px;
+  width: 175px;
+  padding-top: 120px;
+}
+
+.text {
+  margin-left: 145px;
+  padding-top: 8px;
+  font-size: 23px;
+  font-style: 'Roboto';
+  position: absolute;
+}
+
+.footer {
+  background-color: #EEA616;
+  height: 75px;
+  width: 500px;
+  display: inline-block;
+  object-position: right;
+  border-top: 1px solid grey;
+}
+
+#gci {
+  padding: 13px;
+  float: right;
+}
